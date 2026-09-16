@@ -4,48 +4,116 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Momentum Classes</title>
+
 <style>
-body{font-family:Arial,sans-serif;margin:0;background:#f5f7fa;}
-header{background:#0d47a1;color:white;padding:20px;text-align:center;}
-.hero{padding:40px 20px;text-align:center;}
-.btn{display:inline-block;background:#25D366;color:white;padding:12px 20px;text-decoration:none;border-radius:8px;}
-.card{background:white;margin:20px;padding:20px;border-radius:12px;}
-footer{background:#0d47a1;color:white;text-align:center;padding:15px;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:Arial,sans-serif;background:#f5f7fa;color:#222;}
+
+.hero img{
+width:100%;
+display:block;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
+
+h2{color:#0d47a1;margin-bottom:10px;}
+
+.btn{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:14px 22px;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+margin-top:15px;
+}
+
+.card{
+background:white;
+margin:20px 0;
+padding:20px;
+border-radius:15px;
+box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+ul{padding-left:20px;}
+li{margin:8px 0;}
+
+footer{
+background:#0d47a1;
+color:white;
+text-align:center;
+padding:18px;
+margin-top:20px;
+}
+
+.callbar{
+position:fixed;
+bottom:15px;
+right:15px;
+background:#25D366;
+color:white;
+padding:14px;
+border-radius:50%;
+font-size:22px;
+text-decoration:none;
+box-shadow:0 4px 10px rgba(0,0,0,.3);
+}
 </style>
 </head>
+
 <body>
 
-<header>
-<h1>Momentum Classes</h1>
-<p>Quality Education for Bright Futures</p>
-</header>
-
 <section class="hero">
-<h2>Admissions Open</h2>
-<p>Classes 6 to 10 | Maths & Science</p>
-<a class="btn" href="https://wa.me/91XXXXXXXXXX">Join on WhatsApp</a>
+<picture>
+<source media="(max-width:768px)" srcset="mobile-header.jpg">
+<img src="desktop-header.jpg" alt="Momentum Classes">
+</picture>
 </section>
 
+<div class="container">
+
+<div class="card" style="text-align:center;">
+<h2>Admissions Open</h2>
+<p><b>Classes 5th to 10th</b></p>
+<p>ICSE & CBSE | Core Subjects: Maths & Science</p>
+
+<a class="btn" href="https://wa.me/917065748587">
+Join on WhatsApp
+</a>
+</div>
+
 <div class="card">
-<h3>Why Choose Us?</h3>
+<h2>Why Choose Momentum Classes?</h2>
 <ul>
-<li>Experienced Teacher</li>
+<li>Science Coaching</li>
+<li>Advanced Mathematics</li>
+<li>Competitive Exam Preparation</li>
+<li>Weekly Tests & Performance Tracking</li>
 <li>Small Batch Size</li>
-<li>Weekly Tests</li>
-<li>Affordable Fees</li>
+<li>Personal Attention</li>
 </ul>
 </div>
 
 <div class="card">
-<h3>Contact</h3>
-<p>Phone: +91 XXXXX XXXXX</p>
-<p>Location: Your Area</p>
+<h2>Contact</h2>
+<p><b>Teacher:</b> Ajit Kumar</p>
+<p><b>Phone:</b> +91 7065748587</p>
+<p><b>Board:</b> ICSE & CBSE</p>
 </div>
 
+</div>
+
+<a class="callbar" href="tel:+917065748587">📞</a>
+
 <footer>
-© 2026 Momentum Classes
+© 2026 Momentum Classes | Building Momentum for Your Future Success
 </footer>
 
 </body>
 </html>
-
